@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+
+<!--
+Name: Chris Fields
+Date Created: 7/18/2019
+Most recent revision: 8/2//2019
+-->
+
+<html lang="en">
+
+<head>
+    <title>Corner Street Grill - Contact Us</title>
+
+    <script type="text/JavaScript" src="restaurant.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css" />
+    <style>
+    </style>
+</head>
+<body>
+    <noscript>
+        <p>Please enable JavaScript to best view this site.</p>
+    </noscript>
+    <header>
+        <h1>Corner Street Grill</h1>
+    </header>
+    <nav class="border">
+        <a href="restaurant-home.html" class="badge badge-pill badge-primary" role="button" aria-pressed="true">Home</a>
+        <a href="restaurant-menu.html" class="badge badge-pill badge-primary" role="button" aria-pressed="true">Menu</a>
+        <a href="restaurant-contact.html" class="badge badge-pill badge-primary" role="button" aria-pressed="true">Contact Us</a>
+        <div class="clear-float"></div>
+
+    </nav>
+    <form name="contactUs" onsubmit="return validateItems()">
+        <div class="form-group inline">
+            <label for="Name">Name</label>
+            <input type="text" class="form-control " id="Name" placeholder="Enter your name" />
+        </div>
+        <div class="form-group inline">
+            <label for="Email">Email Address</label>
+            <input type="email" class="form-control " id="Email" placeholder="Enter your email" />
+            <small id="emailHelp" class="form-text text-muted">We will never share your email with a 3rd party.</small>
+        </div>
+        <div class="form-group inline">
+            <label for="Phone">Phone Number</label>
+            <input type="text" class="form-control " id="Phone" placeholder="111-222-3333" />
+        </div>
+        <div class="form-group inline">
+            <label for="Reason">Reason for Inquiry</label>
+            <select class="form-control" id="Reason">
+                <option value="default" selected>Catering</option>
+                <option value="private">Private Party</option>
+                <option value="feedback">Feedback</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div class="form-group inline">
+            <label for="Information">Additional Information</label>
+            <textarea class="form-control" id="Information" rows="3"></textarea>
+        </div>
+        <label id="choices">Have you been to the restaurant?</label>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" id="Choice1" name="Questionnaire" value="No" />
+            <label class="form-check-label" for="Choice1">No</label>
+        </div>
+        <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" id="Choice2" name="Questionnaire" value="Yes" />
+        <label class="form-check-label" for="Choice2">Yes</label>
+    </div>
+        <br />
+        <label id="bestDay">Best days to contact you:</label>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="monday" name="contact" value="M" />
+            <label class="form-check-label" for="monday">M</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="tuesday" name="contact" value="T" />
+            <label class="form-check-label" for="tuesday">T</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="wednesday" name="contact" value="W" />
+            <label class="form-check-label" for="wednesday">W</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="monday" name="contact" value="Th" />
+            <label class="form-check-label" for="thursday">Th</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="friday" name="contact" value="F" />
+            <label class="form-check-label" for="driday">F</label>
+        </div>
+        <br />
+        <button type="submit" class="btn btn-primary">Send Request</button>
+    </form>
+    <article id="contact">
+        <p><center>7649 Park Place Anytown, Minnesota 55555</center></p>
+        <p><center>(651) 200-5555</center></p>
+
+        <hr />
+    </article>
+    <footer>
+        <p>&copy; 2020 Corner Street Grill. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>

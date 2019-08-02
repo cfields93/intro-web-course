@@ -1,0 +1,83 @@
+﻿body {
+    background-color: aliceblue;
+    font-family: Arial, Arial, Helvetica, sans-serif, sans-serif;
+    color: #0d1f2d;
+    max-width: 1200px;
+    margin: 5px auto;
+}
+header, footer {
+    background-color: steelblue;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 10px 20px 10px;
+}
+nav {
+    border-top: 3px dashed darkgrey;
+    border-bottom: 3px dashed darkgrey;
+    margin-top: 5px;
+    
+}
+nav a {
+    color: cornsilk;
+    padding: 8px;
+    border: thin solid darkgrey;
+    text-decoration: underline;
+    text-align: center;
+    display: block;
+    margin: 20px;
+    width: 100px;
+    float: left;
+}
+.clear-float {
+    clear: both;
+}
+nav a:hover {
+    font-weight: bold;
+}
+nav a:visited {
+    color:aqua;
+}
+nav a:active {
+    text-decoration: none;
+}
+h1, h3 {
+    text-align:center;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 150px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.row {
+    display: grid;
+}
+.carousel-inner{
+    height: 200px;
+    width: 600px;
+    margin:auto;
+}
+.carousel-item {
+    text-align: center;
+
+}
+.carousel {
+    background-color:lightblue
+}
+form {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.form-group.has-error > input{
+    border:solid 2px darkred !important;
+}
+form-check.form-check-inline.has-error{
+    border: solid 2px darkred !important;
+}
