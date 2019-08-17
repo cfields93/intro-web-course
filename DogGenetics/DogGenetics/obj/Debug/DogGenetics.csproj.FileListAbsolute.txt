@@ -1,0 +1,7 @@
+C:\Users\cfields\Documents\Software Guild\Repos\Classwork\DogGenetics\DogGenetics\bin\Debug\DogGenetics.exe.config
+C:\Users\cfields\Documents\Software Guild\Repos\Classwork\DogGenetics\DogGenetics\bin\Debug\DogGenetics.exe
+C:\Users\cfields\Documents\Software Guild\Repos\Classwork\DogGenetics\DogGenetics\bin\Debug\DogGenetics.pdb
+C:\Users\cfields\Documents\Software Guild\Repos\Classwork\DogGenetics\DogGenetics\obj\Debug\DogGenetics.csprojAssemblyReference.cache
+C:\Users\cfields\Documents\Software Guild\Repos\Classwork\DogGenetics\DogGenetics\obj\Debug\DogGenetics.csproj.CoreCompileInputs.cache
+C:\Users\cfields\Documents\Software Guild\Repos\Classwork\DogGenetics\DogGenetics\obj\Debug\DogGenetics.exe
+C:\Users\cfields\Documents\Software Guild\Repos\Classwork\DogGenetics\DogGenetics\obj\Debug\DogGenetics.pdb

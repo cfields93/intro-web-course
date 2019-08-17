@@ -1,0 +1,7 @@
+C:\Users\cfields\Documents\Software Guild\Repos\Classwork\SummativeSums\SummativeSums\bin\Debug\SummativeSums.exe.config
+C:\Users\cfields\Documents\Software Guild\Repos\Classwork\SummativeSums\SummativeSums\bin\Debug\SummativeSums.exe
+C:\Users\cfields\Documents\Software Guild\Repos\Classwork\SummativeSums\SummativeSums\bin\Debug\SummativeSums.pdb
+C:\Users\cfields\Documents\Software Guild\Repos\Classwork\SummativeSums\SummativeSums\obj\Debug\SummativeSums.csprojAssemblyReference.cache
+C:\Users\cfields\Documents\Software Guild\Repos\Classwork\SummativeSums\SummativeSums\obj\Debug\SummativeSums.csproj.CoreCompileInputs.cache
+C:\Users\cfields\Documents\Software Guild\Repos\Classwork\SummativeSums\SummativeSums\obj\Debug\SummativeSums.exe
+C:\Users\cfields\Documents\Software Guild\Repos\Classwork\SummativeSums\SummativeSums\obj\Debug\SummativeSums.pdb
